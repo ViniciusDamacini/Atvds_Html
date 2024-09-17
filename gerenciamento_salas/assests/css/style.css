@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+header{
+    background-color: rgb(14, 11, 180);
+    padding-bottom: 30px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: "Montsserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+form{
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.linha{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.linha label{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.linha input{
+    margin-top: 10px;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.botao input{
+    width: 100px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgb(14, 11, 180);
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tabela{
+    border: 1px;
+}
+
+.tabela th, tabela td{
+    padding: 4px;
+    border: 1px solid black;
+}
+ 
+.mensagem{
+    margin: 4px;
+    padding: 4px;
+    background-color: rgb(32, 143, 32);
+    color: white;
+    border-radius: 4px;
+    display: none;
+}

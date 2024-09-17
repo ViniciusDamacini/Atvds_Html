@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reserva_salas/assets/css/style.css">
+    <title>Reserva de salas</title>
+</head>
+<body>
+    <div class="conteudo-form">
+        <div class="titulo-form">
+            <h1>Reserva de salas</h1>
+        </div>
+        <form>
+            <div><label for="atividade">Descrição da atividade</label>
+                <input type="text" id="atividade">
+            </div>
+            <div><label for="sala">Sala</label>
+                <select id="sala">
+                    <option value="1">Laboratorio de informatica 1</option>
+                    <option value="2">Laboratorio de informatica 2</option>
+                </select>
+            </div>
+            <div>
+                <label for="data_inicial">Data inicial:</label>
+                <input type="datetime-local" id="data_inicial">
+            </div>
+            <div>
+                <label for="data_final">Data final:</label>
+                <input type="datetime-local" id="data_final">
+            </div>
+            <div>
+                <input type="submit" value="Reservar" id="btnReservar"> 
+            </div>
+        </form>
+        <div id="tabela"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

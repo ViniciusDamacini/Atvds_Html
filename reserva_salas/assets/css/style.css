@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo-form{
+    width: 600px;
+    padding: 8px 8px;
+}
+
+.titulo-form{
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(109, 54, 134);    
+}
+
+input[type=text] {
+    width: 585px;
+    height: 30px;
+    
+}
+
+input[type=submit] {
+    color: rgb(0, 0, 0);
+    background-color: rgb(109, 54, 134)ue;
+    width: 70px;
+    height: 40px;   
+    border-radius: 10px;
+}
+
+.tabela{
+    width: 100%;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+.tabela td, .tabela th{
+    padding: 16px;
+    border: 1px black solid;
+}
+
+.tabela th{
+    color: rgb(255, 255, 255);
+    background-color: rgb(109, 54, 134);
+}
+
+.tabela tr:nth-child(odd){
+    background-color: rgb(61, 61, 61);
+}
+
+.tabela tr:hover{
+    background-color: rgb(66, 66, 66);
+}
+
+#sala{
+    width: 585px;
+    height: 30px;
+}
+#data_inicial{
+    width: 585px;
+    height: 30px;
+}
+
+#data_final{
+    width: 585px;
+    height: 30px;
+}
+
+form > div {
+    padding-bottom: 20px;
+}

@@ -1,0 +1,9 @@
+{
+    "reserva":[
+        {"id":1,"sala":"Informática"},
+        {"id":2,"sala":"Arquitetura"},
+        {"id":3,"sala":"Matemática"},
+        {"id":4,"sala":"Lógica"},
+        {"id":5,"sala":"Fábrica De Software"}
+    ]
+}
